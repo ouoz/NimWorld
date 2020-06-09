@@ -1,5 +1,3 @@
-import math
-
 const MAX = 5 * 10 ^ 6
 const MOD = 10 ^ 9 + 7
 

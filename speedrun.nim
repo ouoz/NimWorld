@@ -267,4 +267,15 @@ proc unite(x,y : int) =
 
 
 
-
+#繰り返し二乗法
+proc sqpow(a,b: int): int = 
+    if b == 1:
+        return a
+    else b == 0:
+        return 1
+    var
+      ret = sqpow(a, b div 2)
+    if b mod 2 == 0:
+        return ret ^ 2
+    else:
+        return a * ret ^ 2
