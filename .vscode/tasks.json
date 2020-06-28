@@ -4,7 +4,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
+            "label": "Nim",
             "type": "shell",
             "command": "nim c -r --verbosity:0 --hints:off ${fileBasename}",
             "problemMatcher": [],
